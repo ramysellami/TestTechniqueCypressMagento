@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Sign-in to the application",
+    "line": 1,
+    "id": "sign-in-to-the-application",
+    "tags": [],
+    "uri": "3_SignIn.feature",
+    "elements": [
+      {
+        "id": "sign-in-to-the-application;sign-in",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Sign-in",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I visit the website",
+            "result": {
+              "status": "passed",
+              "duration": 6476000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 2015000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I check that sign in page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I authenticate",
+            "result": {
+              "status": "passed",
+              "duration": 7977000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I check that I logged in to the application",
+            "result": {
+              "status": "passed",
+              "duration": 1362000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

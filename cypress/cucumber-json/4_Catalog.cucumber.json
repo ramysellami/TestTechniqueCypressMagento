@@ -1,0 +1,127 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Catalog and purchasing tunnel",
+    "line": 1,
+    "id": "catalog-and-purchasing-tunnel",
+    "tags": [],
+    "uri": "4_Catalog.feature",
+    "elements": [
+      {
+        "id": "catalog-and-purchasing-tunnel;select-item-from-catalog",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Select item from catalog",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I visit the website",
+            "result": {
+              "status": "passed",
+              "duration": 7743000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I sign-in to the application",
+            "result": {
+              "status": "passed",
+              "duration": 20300000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I mouse hover on an element of the menu",
+            "result": {
+              "status": "passed",
+              "duration": 3820000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I check the menu list is visible",
+            "result": {
+              "status": "passed",
+              "duration": 673000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I mouse hover on an element of the list",
+            "result": {
+              "status": "passed",
+              "duration": 3102000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I check that the sub-menu is visible",
+            "result": {
+              "status": "passed",
+              "duration": 344000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click on a menu item",
+            "result": {
+              "status": "passed",
+              "duration": 9247000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "The required page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 462000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I mouse hover an element from the list of items",
+            "result": {
+              "status": "passed",
+              "duration": 2938000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "content": "\n        Scenario: Review and payments\n                Given I visit the website\n                #When I sign-in to the application\n                And I click on proceed to checkout button\n                Then I check that the shipping page is opened\n                And I fill the shipping information\n                And I click on next\n                Then I check that the review and paimennt interface is displayed\n                And I verify the exact delivery information with the shipping page\n                Then I check the correspondence of the basket total with the quantity per item\n                And I click on place an order\n                And I check the display of the confirm message and the order number\n                Then Sign-out\n\n",
+                "line": 16
+              }
+            ],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I add item to the Cart",
+            "result": {
+              "status": "passed",
+              "duration": 18839000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
